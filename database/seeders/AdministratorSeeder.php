@@ -19,7 +19,7 @@ class AdministratorSeeder extends Seeder
         Administrator::create([
             'name' => 'Administrator',
             'email' => 'admin@gmail.com',
-            'password' => Hash::make('ansor'), // Hash the password
+            'password' => Hash::make('Raihan'), // Hash the password
             'phone_number' => $faker->phoneNumber(), // Use Faker for phone number
         ]);
 
